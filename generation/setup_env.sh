@@ -34,6 +34,12 @@ pip install ./extras/MVDream
 echo -e "\n\n[INFO] Installing ImageDream package\n"
 pip install ./extras/ImageDream
 
+# Install shap-e model dependencies
+echo -e "\n\n[INFO] Installing shap-e model dependencies\n"
+pip install transformers accelerate -q
+pip install git+https://github.com/huggingface/diffusers@@shap-ee
+
+
 # Store the path of the Conda interpreter
 CONDA_INTERPRETER_PATH=$(which python)
 
@@ -50,3 +56,4 @@ module.exports = {
 EOF
 
 echo -e "\n\n[INFO] generation.config.js generated for PM2."
+
