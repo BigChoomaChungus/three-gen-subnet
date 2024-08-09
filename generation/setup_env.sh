@@ -28,11 +28,11 @@ pip install ./extras/diff_gaussian_rasterization
 echo -e "\n\n[INFO] Installing simple-knn package\n"
 pip install ./extras/simple-knn
 
-echo -e "\n\n[INFO] Installing MVDream package\n"
-pip install ./extras/MVDream
+# echo -e "\n\n[INFO] Installing MVDream package\n"
+# pip install ./extras/MVDream
 
-echo -e "\n\n[INFO] Installing ImageDream package\n"
-pip install ./extras/ImageDream
+# echo -e "\n\n[INFO] Installing ImageDream package\n"
+# pip install ./extras/ImageDream
 
 # Install shap-e model dependencies
 echo -e "\n\n[INFO] Installing shap-e model dependencies\n"
